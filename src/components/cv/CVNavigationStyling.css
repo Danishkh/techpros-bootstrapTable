@@ -1,0 +1,48 @@
+
+.techText{
+  position: absolute;
+  width:100%;
+  height:5%;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.navBar{
+    position: absolute;
+
+}
+.cvWrap{
+  position: absolute;
+  background-color: white;
+  width:60%;
+  height:90%;
+  left:20%;
+  top:8%;
+}
+.formInfo{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    right:35%;
+}
+
+.techP{
+  position: absolute;
+  left:5%;
+  color: #0f0f0f;
+  top:0%;
+  border-bottom: 1px solid #9e14ff;
+  font-size: 140%;
+}
+
+.oppdaterTekst{
+  position: absolute;
+  top:80%;
+  left:30%;
+}
+.bar{
+    position: absolute;
+    top:15%;
+}
+
+

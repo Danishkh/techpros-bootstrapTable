@@ -1,0 +1,75 @@
+.projectButton{
+  position: absolute;
+  border: 1px solid black;
+  width:90%;
+  left:5%;
+  height:12%;
+  background-color: #B0E57C;
+  top:80%;
+}
+.projectText{
+  position: absolute;
+  left:38%;
+  top:26%;
+}
+.projects{
+  position: absolute;
+  width: 25%;
+  top:10%;
+  left:40%;
+}
+.enterFromDate{
+  position: absolute;
+  left:105%;
+  bottom:72%;
+  width:30%;
+}
+.enterToDate{
+  position: absolute;
+  left:140%;
+  width:30%;
+  bottom:72%;
+
+}
+.projectDates {
+  position: absolute;
+  width: 210%;
+  right:110%;
+  top:115%;
+}
+.updateButton{
+  position: absolute;
+  top:170%;
+  width:80%;
+  height:20%;
+  left: 35%;;
+
+}
+.projectsTable{
+  position: absolute;
+  top:65%;
+  left:10%;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .projects{
+    width: 40%;
+    top:12%;
+    left:10%;
+  }
+    .projectsTable{
+        position: absolute;
+        top:60%;
+        left:0%;
+        justify-content: center;
+    }
+    .updateButton{
+        position: absolute;
+        top:150%;
+        width:80%;
+        height:20%;
+        left: 5%;;
+
+    }
+}

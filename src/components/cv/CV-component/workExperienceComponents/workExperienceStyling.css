@@ -1,0 +1,38 @@
+.workButton{
+  position: absolute;
+  border: 1px solid black;
+  width:90%;
+  left:5%;
+  height:12%;
+  top:67%;
+  background-color: #B0E57C;
+}
+.workText{
+  position: absolute;
+  left:38%;
+  top:26%;
+}
+.work{
+  position: absolute;
+  width: 50%;
+  top:10%;
+  left:40%;
+}
+.workPeriod{
+  position: absolute;
+  width:100%;
+  top:113%;
+  right:105%;
+}
+.workInfo{
+  position: absolute;
+  width: 50%;
+  top:120%;
+}
+@media (max-width: 600px) {
+  .work{
+    width:80%;
+    top:14%;
+    left:10%;
+  }
+}

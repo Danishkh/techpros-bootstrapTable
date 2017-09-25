@@ -1,0 +1,95 @@
+.profileButton{
+  position: absolute;
+  border: 1px solid black;
+  width:90%;
+  left:5%;
+  height:12%;
+  top:28%;
+  background-color: #B0E57C;
+
+}
+.profileText{
+  position: absolute;
+  left:38%;
+  top:26%;
+}
+.consult{
+  position: absolute;
+  top:5%;
+  width: 70%;
+  left:30%;
+  height: 30%;
+
+}
+.profilePicture{
+   position: absolute;
+   width:30%;
+   height:80%;
+   top:15%;
+   left:75%;
+   border: 2px solid black;
+}
+.consult{
+  position: absolute;
+  top:10%;
+  left:15%;
+}
+.testImg{
+  position: absolute;
+  width:100%;
+  height:100%;
+}
+
+.extraInfo{
+  position: absolute;
+  top:130%;
+  width: 180%;
+
+}
+.basicInfo{
+  position: absolute;
+  width:40%;
+  top:10%;
+  left:30%;
+
+}
+.sendConsultInfo{
+  position: absolute;
+  top:200%;
+  left:50%;
+  height:30%;
+  width: 80%;
+
+}
+.eduUpdate{
+  position: absolute;
+  top:100%;
+  left:80%;
+  height:60%;
+  width: 80%;
+  background-color:pink;
+}
+@media (max-width: 600px) {
+  .basicInfo {
+    width:75%;
+    left:0%;
+    height:100%;
+    top:10%;
+  }
+  .profilePicture{
+    height: 40%;
+    top:13%;
+    width:40%;
+    left:80%;
+  }
+  .sendConsultInfo{
+    top:155%;
+    height:20%;
+    left:10%;
+    width:68%;
+  }
+  .extraInfo{
+    top:106%;
+    width: 100%;
+  }
+}

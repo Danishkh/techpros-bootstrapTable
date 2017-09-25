@@ -1,0 +1,56 @@
+.expertiseButton{
+  position: absolute;
+  border: 1px solid black;
+  width:90%;
+  left:5%;
+  height:12%;
+  top:41%;
+  background-color: #B0E57C;
+
+}
+.expertiseText{
+  position: absolute;
+  left:38%;
+  top:26%;
+}
+.skillText{
+  color:black;
+  position: absolute;
+  bottom:22%;
+  right:40%;
+  font-size: 20px;
+}
+.ekspertise{
+  position: absolute;
+  width: 100%;
+  top:10%;
+  left:10%;
+}
+.ekspertiseDato{
+  position: absolute;
+  top:120%;
+  width:400%;
+  right:120%;
+}
+.showSkill{
+  position: absolute;
+  left:80%;
+  width:100%;
+  top:20%;
+  height: 10%;
+}
+.kunnUpdate{
+  position: absolute;
+  width:100%;
+  top:130%;
+  height: 30%;
+  background-color: #644284;
+  color:white;
+}
+@media (max-width: 600px) {
+  .ekspertise{
+    width:80%;
+    top:10%;
+    left:13%;
+  }
+}

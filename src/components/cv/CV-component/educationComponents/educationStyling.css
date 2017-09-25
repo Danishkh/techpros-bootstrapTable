@@ -1,0 +1,78 @@
+.eduUpdate{
+  position: absolute;
+  border: 1px solid black;
+  width:50%;
+  left:30%;
+  height:62%;
+  top:104%;
+  background-color: #B0E57C;
+}
+.educationText{
+  position: absolute;
+  left:38%;
+  top:26%;
+}
+.educations{
+  position: absolute;
+  width: 100%;
+  top:10%;
+  left:40%;
+}
+.stillEdu{
+  position: absolute;
+  left:130%;
+  top:80%;
+}
+.utdannelse{
+  position: absolute;
+  width: 20%;
+  top:10%;
+  left:40%;
+}
+.eduTable{
+  position: absolute;
+  justify-content: center;
+}
+.tableWrap{
+  position: absolute;
+  top:900%;
+  left:-100%;
+  width:500%;
+
+}
+.enterFromDate{
+  position: absolute;
+  left:110%;
+  bottom:48px;
+}
+.enterToDate{
+  position: absolute;
+  left:190%;
+  bottom:80px;
+}
+.Extra {
+  position: absolute;
+  top:130%;
+  width:200%;
+  left:0%;
+}
+.kunnskapDato{
+  position: absolute;
+  flex:1;
+  width:340%;
+  top:120%;
+  right:120%;
+}
+@media (max-width: 600px) {
+    .utdannelse{
+      width:40%;
+      top:13%;
+      left:10%;
+    }
+  .eduTable{
+    position: absolute;
+    top:900%;
+    left:10%;
+
+  }
+}
